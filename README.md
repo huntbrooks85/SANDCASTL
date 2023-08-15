@@ -29,6 +29,7 @@
 *   Note: This package should not be used as a blackbox, please follow and understand this code when using
 *   Note: All required variables are put into "Input Requirements" code block
 *   Note: Read the comment above each variable for additional notes
+*   Note: An example output can be seen in the "Output" directory
 
 ```
 1) Put input file directory in "input_file" variable
