@@ -1,6 +1,6 @@
 <h1 align="center" id="title">🏖️ SANDCASTL 🏖️</h1>
 
-<p id="description"> Spectral ANalog of Dwarfs and Computional Analysis of Spectral TempLates (SANDCASTL) is a Python 3 Jupyter Notebook. It allows for a simple input of a reduced spectrum to fit to the newly created SAND model. SANDCASTLE fits for 4 main parameters, including: effective temperature (Teff), surface gravity (Log(g)), metalliticty ([M/H]), alpha enrichment ([α/H]). With 2 additional nuisance parameters of horizontal and veritcal shift. </p>
+<p id="description"> Spectral ANalog of Dwarfs and Computional Analysis of Spectral TempLates (SANDCASTL) is a Python 3 Jupyter Notebook. It allows for a simple input of a reduced spectrum to fit to the newly created SAND model. SANDCASTL fits for 3 main parameters, including: effective temperature (Teff), surface gravity (Log(g)), and metalliticty ([M/H]). With 2 additional nuisance parameters of horizontal and veritcal shift. </p>
 
 <h2>🛠️ Installation Steps:</h2>
 
