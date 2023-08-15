@@ -1,4 +1,4 @@
-<h1 align="center" id="title">✨ SANDCASTL ✨</h1>
+<h1 align="center" id="title">🏖️ SANDCASTL 🏖️</h1>
 
 <p id="description"> Spectral ANalog of Dwarfs and Computional Analysis of Spectral TempLates (SANDCASTL) is a Python 3 Jupyter Notebook. It allows for a simple input of a reduced spectrum to fit to the newly created SAND model. SANDCASTLE fits for 4 main parameters, including: effective temperature (Teff), surface gravity (Log(g)), metalliticty ([M/H]), alpha enrichment ([α/H]). With 2 additional nuisance parameters of horizontal and veritcal shift. </p>
 
@@ -25,19 +25,23 @@
 
 <h2> 🏆 How to Use SANDCASTL: </h2>
 
-*   Note: This package is a Jupyter Notebook and that each piece of code needs to run before preforming the MCMC simulation. 
+*   Note: This package is a Jupyter Notebook and that each piece of code needs to run before preforming the MCMC simulation
+*   Note: This package should not be used as a blackbox, please follow and understand this code when using
+*   Note: All required variables are put into "Input Requirements" code block
+*   Note: Read the comment above each variable for additional notes
 
 ```
-1) Put in the full directory of your input file, remember that this has to be readable by SPLAT.  
-2) Put in the output directory for your output file, DO NOT PUT A FILE TYPE.  
-3) Input the number of threads you want this code to run on. If you do not know how many your computers have simply input 1.  
-4) Input the number of walkers you want to use, the programmer intended for 25 walkers.  
-5) Input the number of steps you want the walkers to use, may change on the quality of your spectra.  
-6) Finally, input the number of discard you choose, the recommended amount is ~15% the number of steps. 
+1) Put input file directory in "input_file" variable
+2) Input outfile file name in "output_file" variable
+3) Input spectral type estimate in "spt_estimate" variable
+4) Input the number of threads in "threads" variable
+5) Input the number of walkers in the "walkers" variable
+6) Input the number of steps in the "steps" variable
+7) Input the number of discards in the "discard" variable
 ```
 
-* Once these steps are complete click the "Run All" button to run all code snippets. Follow where the code is running. Note that it may take a few minutes to fully run. 
-* Once the code is completed running there will be 9 outputs. One under the "Finds the Best Values and the Errors From the Model" title slide. The second is the output is a total figure of how the walkers explore the parameter space, the observed spectrum compared to the best fit line, and a corner plots with the parameters included. The last 7 are the parameter values and how the walkers explore the parameter space, the best-fit spectrum, and the flatted sample from the MCMC simulation. 
+* Once the inputs are complete click the "Run All" button (FOLLOW THE CODE)
+* Once the notebook is finished running all of the outputs are in the "Output" directory
 
 <h2> 📞 Support </h2>
 
